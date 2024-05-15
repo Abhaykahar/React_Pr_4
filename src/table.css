@@ -1,0 +1,28 @@
+table thead{
+    background-color: black;
+    color: white;
+}
+
+
+table tbody{
+background-color: white;
+outline: none;
+}
+table tr{
+    padding: 10px;
+    font-size: 19px;
+} 
+
+table input{
+    padding: 5px;
+    outline: none;
+}
+
+table thead button{
+    width: 30px;
+    height: 20px;
+    display: block;
+    font-size: 18px;
+    line-height: 17px;
+    border: 1px solid white;
+}
