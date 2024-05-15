@@ -2,10 +2,19 @@ table thead{
     background-color: black;
     color: white;
 }
-
+body{
+    background-image: url('https://images.pexels.com/photos/707344/pexels-photo-707344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.495);
+}
+h1{
+    color: white;
+}
 
 table tbody{
-background-color: white;
+background-color: transparent;
 outline: none;
 }
 table tr{
@@ -16,13 +25,17 @@ table tr{
 table input{
     padding: 5px;
     outline: none;
+    background-color: transparent;
+    color: white;
 }
 
 table thead button{
-    width: 30px;
-    height: 20px;
+    width: 40px;
+    height: 30px;
     display: block;
     font-size: 18px;
     line-height: 17px;
+    background-color: black;
+    color: white;
     border: 1px solid white;
 }

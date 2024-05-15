@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import './table.css'
 import { FaDeleteLeft } from "react-icons/fa6";
+import { IoMdPersonAdd } from "react-icons/io";
+
+
 
 
 const Table = () => {
@@ -26,7 +29,8 @@ const Table = () => {
                 <td>Full Name</td>
                 <td>Email Address</td>
                 <td>Salary</td>
-                <td><button onClick={() => add()}>+</button></td>
+                <td><button onClick={() => add()}><IoMdPersonAdd />
+</button></td>
             </tr>
         </thead>
         <tbody>
@@ -39,7 +43,7 @@ const Table = () => {
                             <td><input type="text" /></td>
                             {
                                 index !== 0 &&(
-                            <td><button onClick={() => remove(val.id)} style={{textAlign:"center",width:"40px",height:"25px",fontSize:"18px"}}><FaDeleteLeft />
+                            <td><button onClick={() => remove(val.id)} style={{textAlign:"center",width:"40px",height:"25px",fontSize:"18px",background:"transparent",color:"white"}}><FaDeleteLeft />
                             </button></td>
                                 )
                             }
